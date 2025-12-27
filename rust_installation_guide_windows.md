@@ -1,0 +1,26 @@
+# Rust Installation Guide for Windows
+
+## Prerequisites
+
+Before installing Rust, you may need to install the Visual Studio prerequisites for the MSVC toolchain. Visit the following link for detailed instructions: https://rust-lang.github.io/rustup/installation/windows-msvc.html
+
+## Installation Steps
+
+1. Download the Rust installer (`rustup-init.exe`) from: https://win.rustup.rs/x86_64
+
+2. Run the downloaded `rustup-init.exe` file.
+
+3. Follow the onscreen instructions to complete the installation. The installer will guide you through the process, including selecting the default toolchain and components.
+
+## Verification
+
+After installation, open a new command prompt or PowerShell window and run the following commands to verify that Rust is installed correctly:
+
+- `rustc --version` (should display the Rust compiler version)
+- `cargo --version` (should display the Cargo package manager version)
+
+## Additional Resources
+
+- Official Rust website: https://www.rust-lang.org
+- Rust documentation: https://doc.rust-lang.org
+- Need help? Ask on the Rust Discord (#beginners channel) or the Rust Users Forum.
